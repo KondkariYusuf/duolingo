@@ -9,9 +9,9 @@
     "lint": "next lint",
     "format": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore .",
-    "db:studio": "npx drizzle-kit studio",
-    "db:push": "npx drizzle-kit push",
-    "db:prod": "tsx ./scripts/prod.ts"
+    "db:studio": "node ./node_modules/drizzle-kit/bin.cjs studio",
+    "db:push": "node ./node_modules/drizzle-kit/bin.cjs push",
+    "db:prod": "node ./node_modules/tsx/dist/cli.js ./scripts/prod.ts"
   },
   "author": {
     "name": "Sanidhya Kumar Verma",
