@@ -43,8 +43,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
 
   return (
     <div
-      id="sticky-banner"
-      className="fixed left-0 top-0 z-50 block h-20 w-full bg-secondary p-2.5 opacity-[0.98] shadow-md sm:h-16 lg:h-10"
+      
     >
       
     </div>
